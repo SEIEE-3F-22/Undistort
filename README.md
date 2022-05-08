@@ -1,7 +1,13 @@
 # Undistort
 Fisheye camera undistort bindings of c++ code.
 
-Download 'Undistort.cpython-38-x86_64-linux-gnu.so' and copy it into python source folder. And camera parameter txt files 'intrinsics.txt' and 'dis_coeff.txt' in format shown below are required:
+Download source file and extract. Run command below to generate a '.so' file and copy it to your project source folder.
+```text
+mkdir build && cd build
+cmake ..
+make
+```
+And camera parameter txt files 'intrinsics.txt' and 'dis_coeff.txt' in format shown below are required:
 
 intrinsics.txt
 ```text
